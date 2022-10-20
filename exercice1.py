@@ -20,4 +20,6 @@ Solde compte: {compte_en_banque}
         print(ami)
     for parent in parents:
         print(parent)
-    
+        
+if __name__ == "__main__":
+    initialize_variable()
