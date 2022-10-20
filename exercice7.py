@@ -18,7 +18,7 @@ def ask_type_test() -> None:
     """
     print("1. String, 2. Integer, 3. Float, 4. List, 5. Tuple\n")
     user_choice = input("[+] Qu'elle type voulez vous tester sur votre variable ? : ")
-    if not user_choice.isdigit() or user_choice not in ["0", "1", "2", "3", "4", "5"]:
+    if not user_choice.isdigit() or user_choice not in ["1", "2", "3", "4", "5"]:
         print("[-] Veuillez spécifier un nombre entre 1 et 5.")
     else:
         value = "Ma valeur voulant être tester."
