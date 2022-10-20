@@ -1,9 +1,7 @@
 """Exercice 8 (Tri alphabétique de la chaîne + Calcul de volumes)
 """
 
-import math
-import os
-import time
+import mathyui
 
 from colorama import Fore
 
